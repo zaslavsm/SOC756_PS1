@@ -60,8 +60,8 @@ nmx
 
 #1c)
 40 + France1985LT$ex[France1985LT$x == 40]
-#The life expectancy at age 40 for French males is 46.21. This means that conditional on surviving
-#to age 40, the average individual is expected to live another 46.21 years if 
+#The life expectancy at age 40 for French males is 34.12. This means that conditional on surviving
+#to age 40, the average individual is expected to live another 34.12 years if 
 #he is subjected to France's 1985 mortality regime.
 
 #1d) 
@@ -81,7 +81,7 @@ France1985LT$ndx[France1985LT$x == 50]/France1985LT$lx[France1985LT$x == 0]
 
 #1g)
 France1985LT$Tx[France1985LT$x == 15] - France1985LT$Tx[France1985LT$x == 65]
-#A French male newborn could expect to live 44.4 years in the interval 15 to 65 if he were 
+#A French male newborn could expect to live 45.92 years in the interval 15 to 65 if he were 
 #subject to French 1985 mortality conditions.
 
 #1h)
@@ -103,7 +103,7 @@ France1985LT$Tx[France1985LT$x == 15] - France1985LT$Tx[France1985LT$x == 65]
 #were stationary in 1985. 
 
 #1k
-install.packages("LifeTables")
+#install.packages("LifeTables")
 library(LifeTables)
 
 lt_nax <- lt.mx(nmx = France1985LT$nmx, 
